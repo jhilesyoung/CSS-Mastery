@@ -116,6 +116,21 @@
         bottom: -3px;
     };
 
+ /* 3D BUTTONS */
 
+ .btn-3d-2 {
+    position: relative;
+
+    background: #ecd300; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%)); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%)); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%)); /* Standard syntax */
+  
+    font-size: 1.4rem;
+    text-shadow: 0 -1px 0 #c3af07;
+
+
+ }
 
 
